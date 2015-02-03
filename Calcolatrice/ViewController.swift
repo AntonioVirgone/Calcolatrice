@@ -15,8 +15,12 @@ class ViewController: UIViewController {
     
     var ultimoNumero : String = ""
     
+    var prova = "ciao mondo"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        println(prova)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
